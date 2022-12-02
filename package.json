@@ -1,0 +1,11 @@
+{
+  "name": "pymcomponents",
+  "version": "1.0.0",
+  "description": "pym的组件库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuanming_pei@163.com",
+  "license": "ISC"
+}
