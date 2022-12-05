@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+.vscode
+node_modules
+project
+.next
+package-lock.json
+next.config.js
+polyfills.js
+release
+.history
+eslint-report.json
+coverage

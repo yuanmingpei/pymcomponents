@@ -1,3 +1,3 @@
-import Hello from "./src/component/hello"
-import Index from "./src/component/about"
-export { Hello,Index}
+import Hello from './src/component/hello'
+import About from './src/component/about'
+export { Hello, About }

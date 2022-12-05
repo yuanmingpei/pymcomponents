@@ -1,0 +1,38 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "extends": ["eslint:recommended"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "describe": "readonly",
+    "it": "readonly",
+    "after": "readonly",
+    "window": true,
+    "document": true,
+    "define": true,
+    "MessageChannel": true,
+    "Promise": true,
+    "exec": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    }
+  },
+  "parser": "@babel/eslint-parser",
+  "plugins": ["eslint-plugin-react"],
+  "rules": {
+    "require-atomic-updates": 0,
+    "no-unused-vars": "off"
+  }
+}
