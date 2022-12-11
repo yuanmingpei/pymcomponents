@@ -1,5 +1,5 @@
 import React from 'react'
-const a = 1
+const a = 12
 export default function About() {
-  return <div>About{a}123456789</div>
+  return <div>About{a}</div>
 }
