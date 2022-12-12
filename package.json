@@ -1,13 +1,13 @@
 {
   "name": "pymcomponents",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "pym的组件库",
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rimraf lib && cross-env NODE_ENV=production && rollup -c",
-    "dev": "rimraf lib && cross-env NODE_ENV=development && rollup -c -w",
+    "build": "rimraf lib && cross-env NODE_ENV=production rollup -c",
+    "dev": "rimraf lib && cross-env NODE_ENV=development rollup -c -w",
     "lint": "eslint src --ext .js",
     "prepare": "husky install"
   },
