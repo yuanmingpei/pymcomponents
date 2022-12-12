@@ -54,7 +54,7 @@ const config = {
   external: ['react'],
   plugins: [
     /**
-     * 项目中引入第三方npm模块，需加入@rollup/plugin-node-resolve
+     * 项目中引入第三方npm模块（比如lodash），需加入@rollup/plugin-node-resolve
      * 将我们代码模块和第三方模块合并
      */
     resolve(),

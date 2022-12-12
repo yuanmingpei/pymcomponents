@@ -4,7 +4,7 @@ module.exports = {
   rules: {
     // type 类型定义，表示 git 提交的 type 必须在以下类型范围内
     'type-enum': [
-      2,
+      2, //2表示error错误
       'always',
       [
         'feat', // 新功能
