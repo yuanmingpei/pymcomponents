@@ -78,7 +78,7 @@ const config = {
      * https://www.npmjs.com/package/rollup-plugin-postcss
      */
     postcss({
-      extract: false
+      modules: true
     }),
     /**
      * 避免发现打包之后的代码中有process.env.NODE_ENV,非node环境
