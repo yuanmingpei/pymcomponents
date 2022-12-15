@@ -1,3 +1,4 @@
 import Hello from './src/component/hello'
 import About from './src/component/about'
-export { Hello, About }
+import TestCSS from './src/component/testcss/index.jsx'
+export { Hello, About, TestCSS }

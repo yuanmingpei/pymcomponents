@@ -1,9 +1,13 @@
 import React from 'react'
-import './index.scss'
+import CSS from './index.scss'
 export default function Hello() {
   return (
-    <div className="title">
-      <div>测试Hello组件</div>
+    <div>
+      <style dangerouslySetInnerHTML={{ __html: CSS }} />
+
+      <div className="title">
+        <div>测试Hello组件</div>
+      </div>
     </div>
   )
 }
